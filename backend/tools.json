@@ -1,0 +1,715 @@
+[
+    {
+        "id": 1,
+        "name": "Khan Academy AI Tutor",
+        "category": [
+            "tutoring",
+            "for-students"
+        ],
+        "description": "Personalized AI tutoring that adapts to each student's learning pace and style.",
+        "rating": 4.8,
+        "reviews": 245,
+        "url": "https://khanacademy.org",
+        "features": [
+            "Personalized Learning",
+            "Progress Tracking",
+            "Multi-subject Support"
+        ],
+        "educationFocus": "K-12 Math, Science, and Reading comprehension"
+    },
+    {
+        "id": 2,
+        "name": "Grammarly for Education",
+        "category": [
+            "writing",
+            "for-students",
+            "for-teachers"
+        ],
+        "description": "AI-powered writing assistant that helps students improve their writing skills.",
+        "rating": 4.6,
+        "reviews": 892,
+        "url": "https://grammarly.com/edu",
+        "features": [
+            "Grammar Check",
+            "Style Suggestions",
+            "Plagiarism Detection"
+        ],
+        "educationFocus": "Writing improvement across all academic levels"
+    },
+    {
+        "id": 3,
+        "name": "Photomath",
+        "category": [
+            "math",
+            "for-students"
+        ],
+        "description": "Solve math problems instantly by taking a photo and get step-by-step solutions.",
+        "rating": 4.7,
+        "reviews": 1205,
+        "url": "https://photomath.net",
+        "features": [
+            "Photo Recognition",
+            "Step-by-step Solutions",
+            "Graphing Calculator"
+        ],
+        "educationFocus": "Mathematics from basic arithmetic to calculus"
+    },
+    {
+        "id": 4,
+        "name": "Duolingo",
+        "category": [
+            "language"
+        ],
+        "description": "Gamified language learning with AI-powered personalized lessons.",
+        "rating": 4.5,
+        "reviews": 2340,
+        "url": "https://duolingo.com",
+        "features": [
+            "Gamification",
+            "Speech Recognition",
+            "Adaptive Learning"
+        ],
+        "educationFocus": "Foreign language acquisition for all ages"
+    },
+    {
+        "id": 5,
+        "name": "Socratic by Google",
+        "category": [
+            "tutoring",
+            "for-students"
+        ],
+        "description": "AI homework helper that provides explanations for various subjects.",
+        "rating": 4.4,
+        "reviews": 456,
+        "url": "https://socratic.org",
+        "features": [
+            "Subject Recognition",
+            "Visual Explanations",
+            "Study Guides"
+        ],
+        "educationFocus": "High school and college homework assistance"
+    },
+    {
+        "id": 6,
+        "name": "Turnitin",
+        "category": [
+            "assessment"
+        ],
+        "description": "AI-powered plagiarism detection and feedback tool for academic integrity.",
+        "rating": 4.3,
+        "reviews": 678,
+        "url": "https://turnitin.com",
+        "features": [
+            "Plagiarism Detection",
+            "Feedback Tools",
+            "Originality Reports"
+        ],
+        "educationFocus": "Academic integrity and writing assessment"
+    },
+    {
+        "id": 7,
+        "name": "Semantic Scholar",
+        "category": [
+            "research",
+            "for-students",
+            "for-teachers"
+        ],
+        "description": "AI-powered academic search engine for finding relevant research papers.",
+        "rating": 4.6,
+        "reviews": 234,
+        "url": "https://semanticscholar.org",
+        "features": [
+            "Smart Search",
+            "Citation Analysis",
+            "Paper Recommendations"
+        ],
+        "educationFocus": "Academic research and literature review"
+    },
+    {
+        "id": 8,
+        "name": "Quizlet",
+        "category": [
+            "assessment",
+            "for-students",
+            "for-teachers"
+        ],
+        "description": "AI-enhanced flashcards and study tools for effective learning.",
+        "rating": 4.5,
+        "reviews": 1456,
+        "url": "https://quizlet.com",
+        "features": [
+            "Smart Flashcards",
+            "Study Games",
+            "Progress Tracking"
+        ],
+        "educationFocus": "Study aid for vocabulary, concepts, and test prep"
+    },
+    {
+        "id": 9,
+        "name": "QuillBot",
+        "category": [
+            "writing",
+            "for-students",
+            "for-teachers"
+        ],
+        "description": "AI-powered paraphrasing tool that helps rewrite and enhance any sentence, paragraph, or article.",
+        "rating": 4.9,
+        "reviews": 5147,
+        "url": "https://quillbot.com",
+        "features": [
+            "Paraphraser",
+            "Summarizer",
+            "Grammar Checker",
+            "AI-detection"
+        ],
+        "educationFocus": "Aids in rephrasing content for originality and clarity in academic work"
+    },
+    {
+        "id": 10,
+        "name": "Wordtune",
+        "category": [
+            "writing",
+            "for-students",
+            "for-teachers"
+        ],
+        "description": "AI writing companion that helps you rephrase your text to make it more clear, compelling, and authentic.",
+        "rating": 4.1,
+        "reviews": 527,
+        "url": "https://www.wordtune.com",
+        "features": [
+            "Rewriting",
+            "Spelling & Grammar",
+            "Tone Changer",
+            "Humanize AI",
+            "AI writing assistant"
+        ],
+        "educationFocus": "Wordtune is an AI writing tool designed to enhance clarity, conciseness, and impact in your text, whether it's an email, an article, or a social media post. It goes beyond basic grammar and spelling checks by offering intelligent rephrasing suggestions, the ability to adjust the tone (e.g., formal or casual), and options to shorten or expand sentences. Wordtune also includes an 'Ask AI' tool for idea generation and even summarization features, making it a versatile assistant for refining existing text and overcoming writer's block."
+    },
+    {
+        "id": 11,
+        "name": "Otio",
+        "category": [
+            "research",
+            "for-students",
+            "for-teachers"
+        ],
+        "description": "AI research assistant designed to organize research, extract key insights, and aid in content drafting.",
+        "rating": 4.4,
+        "reviews": 700,
+        "url": "https://otio.ai/",
+        "features": [
+            "Research Organization",
+            "Insight Extraction",
+            "Drafting Assistance",
+            "Video content extraction"
+        ],
+        "educationFocus": "For researchers, students, and professionals dealing with information overload, Otio acts as an AI-powered research and writing partner. It excels at summarizing documents, articles, and even YouTube videos, allowing you to quickly extract key insights without sifting through hours of content. Otio also offers a unique 'chat with your documents' feature for deeper understanding and an AI-powered text editor that helps you draft and refine content, ensuring it's grounded in your provided sources. This makes it ideal for anyone who needs to efficiently process information and generate high-quality written output."
+    },
+    {
+        "id": 12,
+        "name": "Paperpile",
+        "category": [
+            "research",
+            "for-students",
+            "for-teachers"
+        ],
+        "description": "Reference management software that streamlines citations, bibliography creation, and research organization.",
+        "rating": 4.6,
+        "reviews": 950,
+        "url": "https://paperpile.com",
+        "features": [
+            "Citation Management",
+            "Bibliography Generator",
+            "PDF Annotation"
+        ],
+        "educationFocus": "Paperpile is a web-based reference management tool designed to simplify the often-tedious process of collecting, organizing, and citing research. It integrates deeply with the Google ecosystem, making it particularly powerful for users who rely on Google Docs and Google Drive. With Paperpile, you can easily save references and PDFs directly from your browser, organize your library with folders and labels, and seamlessly insert citations and generate bibliographies in thousands of styles within Google Docs and Microsoft Word. It also offers PDF annotation features and collaborative options, allowing researchers to share libraries and work together on papers. Paperpile is an excellent choice for academics and anyone needing an intuitive and integrated solution for managing their research literature."
+    },
+    {
+        "id": 13,
+        "name": "Xmind",
+        "category": [
+            "for-teachers",
+            "for-students"
+        ],
+        "description": "Transform scattered thoughts into crystal-clear lesson plans and engaging visual outlines. Xmind empowers educators to brainstorm, organize, and present complex topics with intuitive mind maps that bring ideas to life.",
+        "rating": 4.3,
+        "reviews": 1400,
+        "url": "https://xmind.com/",
+        "features": [
+            "Visual Lesson Plan Mapping",
+            "Brainstorming & Idea Organization",
+            "Presentation-Ready Mind Maps",
+            "Cross-Platform Accessibility"
+        ],
+        "educationFocus": "Xmind is a powerful mind mapping software that utilizes AI to help users organize thoughts, brainstorm ideas, and visualize complex information. It enables users to transform scattered ideas into structured mind maps, making it easier to understand and retain complex topics. Beyond simple mapping, Xmind offers features like AI-powered brainstorming, diverse templates, real-time collaboration, and tools for presenting ideas, making it valuable for students for note-taking, project planning, and study organization, and for educators for lesson planning and content visualization."
+    },
+    {
+        "id": 14,
+        "name": "Quizizz",
+        "category": [
+            "assessment",
+            "for-teachers",
+            "for-students"
+        ],
+        "description": "Revolutionize your classroom assessments with gamified quizzes and interactive lessons that instantly captivate students. Quizizz provides real-time insights into student understanding, making formative assessment fun and effective.",
+        "rating": 4.5,
+        "reviews": 5200,
+        "url": "https://quizizz.com",
+        "features": [
+            "Gamified Quizzes & Lessons",
+            "Instant Feedback & Data Insights",
+            "Diverse Question Types (including Draw, Audio/Video)",
+            "Student Pace & Teacher-Led Modes"
+        ],
+        "educationFocus": "Quizizz is an interactive learning platform that leverages AI to help educators create and enhance engaging assessments and activities. Teachers can quickly generate quizzes from documents, YouTube videos, or even images, and utilize AI to simplify questions, translate content, or convert question types. It provides instant feedback for students and real-time reports for teachers, making it an excellent tool for formative assessment, quick checks for understanding, and gamified learning experiences."
+    },
+    {
+        "id": 15,
+        "name": "Diffit",
+        "category": [
+            "for-teachers",
+            "for-students"
+        ],
+        "description": "Instantly adapt any text or video into differentiated content tailored to every student's reading level and language needs. Diffit is your shortcut to inclusive learning, saving hours on material preparation.",
+        "rating": 4.7,
+        "reviews": 1100,
+        "url": "https://diffit.com",
+        "features": [
+            "AI-Powered Reading Level Adjustment",
+            "Multilingual Content Translation",
+            "Automated Comprehension Questions",
+            "Vocabulary List Generation"
+        ],
+        "educationFocus": "Diffit is an AI-powered tool specifically designed to help teachers differentiate instruction and create personalized learning materials. It can adapt any text, article, or video content to various reading levels, generate relevant resources for any topic, and provide summaries, vocabulary lists, and different types of questions (multiple-choice, open-ended). This allows teachers to quickly create accessible and engaging materials tailored to the diverse needs of their students, saving significant planning time."
+    },
+    {
+        "id": 16,
+        "name": "Class Companion",
+        "category": [
+            "for-teachers",
+            "for-students"
+        ],
+        "description": "Provide instant, personalized feedback on student writing, transforming revision into a real-time, confidence-building process. Class Companion's AI tutor supports students 24/7, freeing up teacher time for deeper instruction.",
+        "rating": 4.6,
+        "reviews": 850,
+        "url": "https://classcompanion.com",
+        "features": [
+            "Instant AI Writing Feedback",
+            "Personalized AI Tutoring (Ditto)",
+            "Customizable Rubrics & Assignment Creation",
+            "Student Engagement & Progress Insights"
+        ],
+        "educationFocus": "Class Companion is an AI-powered tutoring and feedback tool that aims to provide individualized support to students while streamlining grading for teachers. It allows educators to create assignments and then leverages AI to provide instant, customizable feedback on student responses, particularly for short answers and essays. With its integrated AI tutor, 'Ditto', students receive guidance and encouragement, helping them understand concepts and revise their work. Teachers also gain valuable insights into student strengths and areas for growth, making it a powerful tool for personalized learning and efficient assessment."
+    },
+    {
+        "id": 17,
+        "name": "Eduaide.AI",
+        "category": [
+            "for-teachers",
+            "for-students"
+        ],
+        "description": "Streamline your entire lesson planning workflow, from generating engaging activities to crafting tailored rubrics, with Eduaide.AI. This teacher-built platform drastically cuts down administrative tasks, so you can focus on impactful teaching.",
+        "rating": 4.5,
+        "reviews": 900,
+        "url": "https://www.eduaide.ai",
+        "features": [
+            "AI-Assisted Lesson Plan Generation",
+            "Differentiated Activity Creation",
+            "Automated Rubric Building",
+            "Curriculum Alignment & Standard Support"
+        ],
+        "educationFocus": "Eduaide.AI is a comprehensive AI-assisted instructional design platform for teachers. It offers a suite of over 120 AI-powered tools to help educators efficiently plan lessons, generate instructional materials, differentiate instruction, provide actionable feedback, and automate administrative tasks. From creating direct instruction scripts and leveled readings to generating assessment rubrics and interactive activities, Eduaide.AI is designed to support teachers in creating high-quality, research-backed learning experiences across various subjects."
+    },
+    {
+        "id": 18,
+        "name": "Civitas Learning",
+        "category": [
+            "Student Success & Analytics",
+            "Administration"
+        ],
+        "description": "Empower your institution with a holistic view of student progress and resource effectiveness. Civitas Learning transforms complex data into actionable insights, enabling proactive interventions that boost retention and graduation rates.",
+        "rating": 4.4,
+        "reviews": 600,
+        "url": "https://www.civitaslearning.com",
+        "features": [
+            "Predictive Student Analytics",
+            "Early Alert Systems for At-Risk Students",
+            "Resource Allocation Optimization",
+            "Intervention Efficacy Tracking"
+        ],
+        "educationFocus": "Civitas Learning provides colleges and universities with a comprehensive platform for student and resource analytics. It leverages vast amounts of student data to offer real-time insights into student progress, risks, and engagement. This allows institutions to proactively identify students who might need support, optimize the allocation of academic and support resources, and ultimately improve student retention and success. It's a powerful tool for data-driven decision-making in higher education."
+    },
+    {
+        "id": 21,
+        "name": "Numerous AI",
+        "category": [
+            "Administrative Automation",
+            "Administration",
+            "for-business"
+        ],
+        "description": "Say goodbye to tedious, repetitive administrative tasks. Numerous AI leverages intelligent automation to streamline data formatting, categorization, and other routine operations, freeing up valuable staff time for strategic initiatives.",
+        "rating": 4.0,
+        "reviews": 280,
+        "url": "https://numerous.ai/",
+        "features": [
+            "Automated Data Cleaning & Formatting",
+            "Intelligent Data Categorization",
+            "Workflow Automation for Admin Tasks",
+            "Integration with Existing Systems"
+        ],
+        "educationFocus": "Numerous AI is designed to optimize routine administrative tasks through intelligent automation, particularly focusing on data formatting and categorization. It acts as a powerful assistant for managing spreadsheets, documents, and other data-intensive tasks by automating repetitive actions, cleaning data, and ensuring consistency. This frees up significant time for educators and administrators, allowing them to focus on more strategic initiatives rather than manual data manipulation."
+    },
+    {
+        "id": 22,
+        "name": "SAP Analytics Cloud",
+        "category": [
+            "for-planning",
+            "Administration",
+            "for-business",
+            "for-professionals"
+        ],
+        "description": "Transform your institution's strategic vision into tangible outcomes with cutting-edge business intelligence and predictive analytics. SAP Analytics Cloud empowers educational leaders with real-time insights for robust financial planning, resource management, and goal achievement.",
+        "rating": 4.1,
+        "reviews": 750,
+        "url": "https://www.sap.com/products/data-cloud/cloud-analytics.html",
+        "features": [
+            "Unified platform for BI, planning, and predictive analytics",
+            "Natively integrates with SAP applications (e.g., S/4HANA, BW/4HANA)",
+            "Augmented analytics and machine learning (Smart Insights, Smart Discovery, Smart Predict)",
+            "Integrated financial planning, budgeting, and forecasting",
+            "Seamless connectivity to various on-premises and cloud data sources (SAP and non-SAP)",
+            "Real-time collaboration and data sharing capabilities",
+            "Conversational analytics using natural language processing",
+            "Over 100 prebuilt business content packages for accelerated projects"
+        ],
+        "educationFocus": "SAP Analytics Cloud is a robust business intelligence and planning platform that empowers educational institutions to enhance their strategic planning and leverage predictive analytics for achieving institutional goals. It integrates data from various sources, providing comprehensive dashboards, reporting, and forecasting capabilities. This allows university leadership and administrative staff to gain a holistic view of their operations, identify trends, predict future needs, and make data-backed decisions for long-term growth and efficiency."
+    },
+    {
+        "id": 23,
+        "name": "Notion",
+        "category": [
+            "Knowledge management & productivity",
+            "for-business",
+            "for-professionals"
+        ],
+        "description": "Transform your Notion workspace into an intelligent hub where AI instantly summarizes notes, brainstorms ideas, and auto-generates content. Notion AI seamlessly integrates into your existing workflows, making your notes, tasks, and projects smarter and more efficient.",
+        "rating": 4.5,
+        "reviews": 2300,
+        "url": "https://www.notion.com/",
+        "features": [
+            "AI-powered content generation (e.g., blog posts, emails, creative writing)",
+            "Text summarization for documents, articles, and meeting notes",
+            "Grammar and spelling correction",
+            "Idea brainstorming and outlining",
+            "Language translation",
+            "Q&A chat directly within Notion",
+            "Automated data entry and categorization in Notion databases"
+        ],
+        "educationFocus": "Notion AI transforms the popular Notion workspace into an even more powerful knowledge management and productivity hub by integrating AI directly into your notes, databases, and content creation. It acts as an intelligent assistant, helping users generate content, summarize lengthy texts, brainstorm ideas, improve grammar and spelling, and even translate content directly within their existing Notion pages. This allows for a seamless workflow from ideation to polished content, all within a centralized workspace."
+    },
+    {
+        "id": 24,
+        "name": "Zapier",
+        "category": [
+            "Workflow Automation",
+            "for-business",
+            "for-professionals"
+        ],
+        "description": "Connect thousands of your favorite apps and automate repetitive tasks across your digital ecosystem. Zapier eliminates manual busywork, allowing you to build powerful, hands-off workflows that save time and increase productivity for anyone, no coding required.",
+        "rating": 4.6,
+        "reviews": 3500,
+        "url": "https://zapier.com",
+        "features": [
+            "No-Code Workflow Automation",
+            "5000+ App Integrations",
+            "Customizable Multi-Step Zaps",
+            "Automated Data Transfer & Sync",
+            "Data formatting and manipulation",
+            "AI-powered Zap builder and Copilot for easier workflow creation",
+            "Integration with AI tools for more intelligent automation",
+            "Enterprise-grade security and compliance features"
+        ],
+        "educationFocus": "Zapier is a workflow automation tool that enables users to connect thousands of web applications and automate repetitive tasks without requiring any coding. It works by creating 'Zaps', which are automated workflows composed of a trigger (an event in one app) and one or more actions (tasks performed in other apps). This allows businesses and individuals to streamline operations, move data between different platforms, and build complex automations, freeing up valuable time that would otherwise be spent on manual data entry or repetitive actions."
+    },
+    {
+        "id": 25,
+        "name": "Fireflies AI",
+        "category": [
+            "Meeting transcription & summaries",
+            "for-business",
+            "for-professionals"
+        ],
+        "description": "Never miss a crucial detail in meetings or lectures again. Fireflies AI automatically transcribes, summarizes, and extracts key insights from your voice conversations, providing instant, searchable notes that enhance recall and collaboration.",
+        "rating": 4.7,
+        "reviews": 1900,
+        "url": "https://fireflies.ai",
+        "features": [
+            "AI Meeting Transcription (Live & Uploaded)",
+            "Automated Meeting Summaries & Action Items",
+            "Speaker Identification & Timestamps",
+            "Searchable Conversation Insights",
+            "AI-powered search within and across meetings",
+            "Integration with CRM, project management, and collaboration tools for automated workflows"
+        ],
+        "educationFocus": "Fireflies AI is an intelligent meeting assistant that specializes in transcribing, summarizing, and analyzing voice conversations from various meeting platforms (e.g., Zoom, Google Meet, Microsoft Teams). It automatically joins meetings to record audio and video, generates accurate transcripts, and provides AI-powered summaries, identifying key discussion points, action items, and even speaker talk time. This tool is invaluable for ensuring no important detail is missed, streamlining follow-ups, and gaining insights from conversations without manual note-taking."
+    },
+    {
+        "id": 26,
+        "name": "NexStrat.AI",
+        "category": [
+            "for-planning",
+            "for-business"
+        ],
+        "description": "Empower leadership with AI-driven foresight to navigate complex challenges and seize opportunities. NexStrat.AI delivers real-time market insights and adaptive strategic frameworks, ensuring your institution's decisions are always ahead of the curve.",
+        "rating": 4.3,
+        "reviews": 320,
+        "url": "https://nexstrat.ai",
+        "features": [
+            "AI-driven strategic framework generation (e.g., SWOT, Issue Tree)",
+            "Real-time insights and predictive analytics for strategic planning",
+            "Scenario modeling to forecast multiple futures and assess risks proactively",
+            "Bias reduction in decision-making through algorithmic recommendations",
+            "Facilitates cross-functional collaboration and alignment on strategic goals",
+            "Automated action plan generation with clear owners and timelines",
+            "Instant executive summary and presentation creation",
+            "Designed with 'agentic workflow' to mimic management consulting processes"
+        ],
+        "educationFocus": "NexStrat.AI stands out as an AI-driven strategic decision intelligence platform that functions as a specialized AI co-pilot for leaders and strategists. Unlike general BI tools, its core strength lies in providing AI-driven strategic frameworks and real-time, actionable insights for high-level decision-making and organizational transformation. It's designed to accelerate strategy development, reduce human biases in planning, and foster cross-functional alignment by integrating AI's advanced reasoning and planning abilities with proven strategic methodologies."
+    },
+    {
+        "id": 27,
+        "name": "LogicGate",
+        "category": [
+            "Enterprise Risk Management",
+            "for-planning",
+            "for-business"
+        ],
+        "description": "Transform your institution's approach to risk with an automated, centralized platform. LogicGate Risk Cloud streamlines risk workflows, provides real-time visibility into your compliance posture, and empowers proactive risk mitigation across all departments.",
+        "rating": 4.4,
+        "reviews": 510,
+        "url": "https://www.logicgate.com",
+        "features": [
+            "No-code platform for building and adapting risk and compliance workflows",
+            "Automated evidence collection for audits and compliance",
+            "AI integration (Spark AI, OpenAI integration for summaries) to identify critical risks and trends",
+            "Centralized management of enterprise, operational, and third-party risks",
+            "Pre-configured risk scoring and guidance for standardized assessments",
+            "Role-based dashboards and automated notifications",
+            "Support for numerous regulatory frameworks (e.g., ISO 27001, SOC 2, GDPR, NIST CSF)"
+        ],
+        "educationFocus": "LogicGate Risk Cloud differentiates itself as an enterprise risk management platform by offering a highly configurable, no-code environment combined with AI capabilities to automate complex risk workflows and provide real-time analytics for comprehensive compliance. Its unique value lies in its ability to centralize an organization's entire risk landscape, enabling continuous visibility and agile adaptation to evolving business needs and regulatory requirements. This allows for a single source of truth for all GRC (Governance, Risk, and Compliance) initiatives, moving beyond static spreadsheets and siloed systems."
+    },
+    {
+        "id": 28,
+        "name": "ClickUp",
+        "category": [
+            "Project & Risk Management",
+            "for-business",
+            "for-administration"
+        ],
+        "description": "Centralize every project, task, and communication in one highly customizable platform. ClickUp empowers teams to manage complex initiatives, track progress, and integrate risk mitigation directly into their daily workflows, ensuring nothing falls through the cracks.",
+        "rating": 4.6,
+        "reviews": 4100,
+        "url": "https://clickup.com",
+        "features": [
+            "Highly customizable project management platform (custom fields, statuses, views)",
+            "Integrates risk management directly into tasks and projects",
+            "Assigns risks as traceable tasks with priorities and owners",
+            "Automates workflows for risk mitigation and dependencies",
+            "Centralized communication and documentation to prevent information silos",
+            "Risk assessment matrices and risk registers for visual tracking",
+            "Templates for communication plans and various risk management plans (IT, Financial, Operational)",
+            "'One App to Replace them All' approach for unified work management"
+        ],
+        "educationFocus": "ClickUp uniquely centralizes project management and automates risk mitigation tasks within an 'everything app for work' philosophy. What makes it special is its unparalleled customizability and the ability to integrate risk management directly into daily task workflows. Unlike tools that treat risk as a separate, isolated function, ClickUp allows users to assign risks as tasks, track them with custom statuses, automate response plans, and leverage a unified system for all project-related decisions and communications, preventing critical information from being scattered across disparate tools."
+    },
+    {
+        "id": 29,
+        "name": "Infopro Learning",
+        "category": [
+            "for-L&D",
+            "for-business"
+        ],
+        "description": "Revolutionize workforce development with AI that personalizes learning paths, automates L&D administration, and ensures your staff's skills continuously align with future demands. Infopro Learning's solution is designed for continuous talent growth.",
+        "rating": 4.2,
+        "reviews": 290,
+        "url": "https://www.infoprolearning.com/",
+        "features": [
+            "Personalized learning paths and adaptive learning systems",
+            "Intelligent automation of L&D administrative tasks (content labeling, quiz creation, analytics)",
+            "Continuous learning and skill alignment through predictive analytics for future skill gaps",
+            "Enhanced engagement via conversational AI (chatbots for real-time support)",
+            "AI-powered simulations and gamified learning environments",
+            "Data analysis on learner performance and engagement patterns for ROI",
+            "Efficient and intelligent content creation",
+            "Integration of competency and job roles with training outcomes"
+        ],
+        "educationFocus": "Infopro Learning's AI in L&D is uniquely specialized in transforming workforce learning and development by personalizing learning at scale, intelligently automating L&D processes, and ensuring continuous skill alignment with evolving business needs. Its special ability is the comprehensive approach to leveraging AI to create highly adaptive and engaging learning experiences for employees, connecting learning outcomes directly to organizational goals. This goes beyond simple content delivery by using predictive analytics to address future skill deficits and offering conversational AI for real-time coaching and support."
+    },
+    {
+        "id": 30,
+        "name": "ChatGPT",
+        "category": [
+            "writing",
+            "tutoring",
+            "research",
+            "for-students",
+            "for-teachers",
+            "for-professionals"
+        ],
+        "description": "A versatile AI assistant by OpenAI that can help with writing, coding, learning new topics, and much more. It's a go-to tool for brainstorming and drafting.",
+        "rating": 4.9,
+        "reviews": 15000,
+        "url": "https://chat.openai.com",
+        "features": [
+            "Conversational AI",
+            "Content Generation",
+            "Code Assistance",
+            "Language Translation"
+        ],
+        "educationFocus": "ChatGPT is a universal assistant for students and educators. It can explain complex concepts, generate practice questions, draft essays, and even help with coding assignments. Teachers use it to create lesson plans, rubrics, and email templates."
+    },
+    {
+        "id": 31,
+        "name": "Claude",
+        "category": [
+            "writing",
+            "research",
+            "for-students",
+            "for-professionals"
+        ],
+        "description": "Anthropic's AI assistant, known for its ability to process large amounts of text and provide safe, helpful, and honest responses. Great for reading long papers.",
+        "rating": 4.8,
+        "reviews": 5000,
+        "url": "https://claude.ai",
+        "features": [
+            "Large Context Window",
+            "Document Summarization",
+            "Nuanced Writing",
+            "Code Explanation"
+        ],
+        "educationFocus": "Claude excels at analyzing long documents, making it perfect for research. Students can upload PDFs of textbooks or papers and ask for summaries or clarifications. Its writing style is often considered more natural and less robotic."
+    },
+    {
+        "id": 32,
+        "name": "Midjourney",
+        "category": [
+            "creative",
+            "for-students",
+            "for-professionals"
+        ],
+        "description": "A powerful AI image generator that creates stunning visuals from text descriptions. Perfect for art projects, presentations, and creative inspiration.",
+        "rating": 4.7,
+        "reviews": 8000,
+        "url": "https://www.midjourney.com",
+        "features": [
+            "High-Quality Image Generation",
+            "Artistic Style Mimicry",
+            "Image Upscaling",
+            "Creative Variations"
+        ],
+        "educationFocus": "Midjourney allows students and teachers to visualize concepts, create unique artwork for presentations, and explore art history styles. It's a fantastic tool for fostering creativity and visual literacy."
+    },
+    {
+        "id": 33,
+        "name": "Canva Magic Studio",
+        "category": [
+            "creative",
+            "for-teachers",
+            "for-students",
+            "for-business"
+        ],
+        "description": "Canva's AI-powered suite of design tools. Generate images, edit photos, and create presentations with simple text prompts.",
+        "rating": 4.8,
+        "reviews": 12000,
+        "url": "https://www.canva.com/magic",
+        "features": [
+            "Magic Design",
+            "Text-to-Image",
+            "Magic Eraser",
+            "Instant Presentations"
+        ],
+        "educationFocus": "Canva is a staple in education. Its AI features make it even easier for teachers to create engaging slides and worksheets, and for students to design professional-looking posters and projects without needing advanced design skills."
+    },
+    {
+        "id": 34,
+        "name": "Synthesia",
+        "category": [
+            "creative",
+            "for-L&D",
+            "for-business"
+        ],
+        "description": "Create professional AI videos from text in minutes. Use AI avatars to present your content in multiple languages.",
+        "rating": 4.6,
+        "reviews": 2500,
+        "url": "https://www.synthesia.io",
+        "features": [
+            "AI Avatars",
+            "Text-to-Video",
+            "Multi-language Support",
+            "Video Templates"
+        ],
+        "educationFocus": "Synthesia is game-changing for creating educational videos. Teachers and L&D professionals can turn text scripts into engaging video lectures with realistic avatars, making content more accessible and scalable."
+    },
+    {
+        "id": 35,
+        "name": "Gamma",
+        "category": [
+            "creative",
+            "for-students",
+            "for-teachers",
+            "for-business"
+        ],
+        "description": "A new medium for presenting ideas. Powered by AI, Gamma creates beautiful presentations, documents, and webpages with none of the formatting work.",
+        "rating": 4.7,
+        "reviews": 1800,
+        "url": "https://gamma.app",
+        "features": [
+            "AI Presentation Generation",
+            "One-click Polish",
+            "Interactive Embeds",
+            "Responsive Layouts"
+        ],
+        "educationFocus": "Gamma allows students and teachers to generate entire slide decks or web pages from a simple outline. It handles the design and formatting, letting users focus entirely on the content and storytelling."
+    },
+    {
+        "id": 36,
+        "name": "Perplexity AI",
+        "category": [
+            "research",
+            "for-students",
+            "for-professionals"
+        ],
+        "description": "An AI-powered answer engine that provides accurate, trusted, and real-time answers to your questions with citations.",
+        "rating": 4.8,
+        "reviews": 4000,
+        "url": "https://www.perplexity.ai",
+        "features": [
+            "Real-time Web Search",
+            "Source Citations",
+            "Follow-up Questions",
+            "Copilot Mode"
+        ],
+        "educationFocus": "Perplexity is an excellent alternative to traditional search engines for research. It provides direct answers with cited sources, helping students find reliable information quickly and verify facts."
+    },
+    {
+        "id": 37,
+        "name": "Descript",
+        "category": [
+            "creative",
+            "for-students",
+            "for-professionals"
+        ],
+        "description": "There's a new way to make video and podcasts. A good way. Descript is the simple, powerful, and fun way to edit.",
+        "rating": 4.5,
+        "reviews": 2100,
+        "url": "https://www.descript.com",
+        "features": [
+            "Edit Video by Editing Text",
+            "Overdub (AI Voice Cloning)",
+            "Studio Sound",
+            "Screen Recording"
+        ],
+        "educationFocus": "Descript makes video and audio editing as easy as editing a doc. Students can create podcasts or video essays, and teachers can easily edit lecture recordings, removing filler words and improving audio quality automatically."
+    }
+]

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Hub for Education</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav"> 
+                <div class="logo"> <!--Displays a brain logo-->
+                     <i class="fas fa-brain"></i >  <!--Takes icon of brain provided by Font Awesome-->
+                    <span>AI Agent Hub</span>
+                </div>
+                <nav class="nav-links"> <!--Different links on the top right of the page to different sections-->
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#directory" class="nav-link">Tools</a>
+                    <a href="#finder" class="nav-link">AI Finder</a>
+                    <a href="#submit" class="nav-link">Submit Tool</a>
+                </nav>
+                <button class="menu-toggle"> <!--Button for mobile, when clicked would hide the navigation links that are on the top right-->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section (Aka the first thing people will see when they land on the website)-->
+    <section id="home" class="hero">  
+        <div class="container"> 
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Discover the Perfect <span class="gradient-text">AI Tools</span> for Education
+                </h1>
+                <p class="hero-subtitle">
+                    Your one-stop platform for finding, comparing, and using the best AI tools to enhance learning and teaching experiences.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary" onclick="scrollToSection('finder')">
+                        <i class="fas fa-search"></i>
+                        Find Your AI Tool <!--Button with link to AI tool finder-->
+                    </button> <!--Makes the text into a button-->
+                    <button class="btn btn-secondary" onclick="scrollToSection('directory')">
+                        <i class="fas fa-compass"></i>
+                        Explore Directory <!--Button with link to tool directory-->
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-cards"> <!--The floating cards on the right-->
+                    <div class="card card-1">
+                        <i class="fas fa-robot"></i>
+                        <span>AI Tutors</span>
+                    </div>
+                    <div class="card card-2">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Learning</span>
+                    </div>
+                    <div class="card card-3">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Tool Finder -->
+    <section id="finder" class="finder-section">
+        <div class="container">
+            <h2 class="section-title">AI Tool Finder</h2>
+            <p class="section-subtitle">Describe your needs and we'll suggest the perfect AI tools for you</p>
+            
+            <div class="finder-container">
+                <div class="finder-input">
+                    <textarea id="problemDescription" placeholder="Describe what you need help with... (e.g., 'I need to create interactive quizzes for my math class' or 'Help students with essay writing feedback')"></textarea>
+                    <button class="btn btn-primary" onclick="findAITools()">
+                        <i class="fas fa-magic"></i>
+                        Find AI Tools
+                    </button>
+                </div>
+                <div id="finderResults" class="finder-results"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tool Directory -->
+    <section id="directory" class="directory-section">
+        <div class="container">
+            <h2 class="section-title">Curated AI Tool Directory</h2>
+            <p class="section-subtitle">Explore our handpicked collection of educational AI tools</p>
+            
+            <!-- Search and Filters -->
+            <div class="directory-controls">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search AI tools..." onkeyup="filterTools()">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="filters"> <!--Filter by category-->
+                    <select id="categoryFilter" onchange="filterTools()">
+                        <option value="">All Categories</option>
+                        <option value="tutoring">AI Tutoring</option>
+                        <option value="writing">Writing & Essays</option>
+                        <option value="math">Math & Science</option>
+                        <option value="language">Language Learning</option>
+                        <option value="assessment">Assessment & Testing</option>
+                        <option value="research">Research Tools</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Tools Grid -->
+            <div id="toolsGrid" class="tools-grid">
+                <!-- Tools will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Submit Tool Section -->
+    <section id="submit" class="submit-section">
+        <div class="container">
+            <h2 class="section-title">Submit an AI Tool</h2>
+            <p class="section-subtitle">Know a great AI tool for education? Share it with our community!</p>
+            
+            <div class="submit-form-container">
+                <form id="submitForm" class="submit-form">
+                    <div class="form-group">
+                        <label for="toolName">Tool Name</label>
+                        <input type="text" id="toolName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="toolUrl">Tool URL</label>
+                        <input type="url" id="toolUrl" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="toolCategory">Category</label>
+                        <select id="toolCategory" required>
+                            <option value="">Select a category</option>
+                            <option value="tutoring">AI Tutoring</option>
+                            <option value="writing">Writing & Essays</option>
+                            <option value="math">Math & Science</option>
+                            <option value="language">Language Learning</option>
+                            <option value="assessment">Assessment & Testing</option>
+                            <option value="research">Research Tools</option>
+                            <option value="for-students">For Students</option>
+                            <option value="for-teachers">For Teachers</option>
+                            <option value="for-administration">For Administration</option>
+                            <option value="for-business">Business</option>
+                            <option value="for-professionals">Professionals and Office Workers</option>
+                            <option value="for-planning">Strategic Planning</option>
+                            <option value="for-L&D">Learning and Developement</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="toolDescription">Description</label>
+                        <textarea id="toolDescription" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="submitterEmail">Your Email</label>
+                        <input type="email" id="submitterEmail" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-plus"></i>
+                        Submit Tool
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-brain"></i>
+                        <span>AI Agent Hub</span>
+                    </div>
+                    <p>Empowering education through AI innovation</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Platform</h4>
+                        <a href="#directory">Tool Directory</a>
+                        <a href="#finder">AI Finder</a>
+                        <a href="#submit">Submit Tool</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <a href="#">Help Center</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Community</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI Agent Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Tool Details -->
+    <div id="toolModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <div class="chat-bubble">
+    <i class="fas fa-comment"></i>
+</div>
+
+<div class="chat-window">
+    <div class="chat-header">
+        <h3>AI Assistant</h3>
+        <button class="close-chat">&times;</button>
+    </div>
+    <div class="chat-messages">
+        <div class="message bot-message">Hello! How can I help you today?</div>
+    </div>
+    <div class="chat-input-form">
+        <form id="chat-form">
+            <input type="text" id="chat-input" placeholder="Ask a question..." autocomplete="off" required>
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    // Function to scroll to a specific section
+    function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Function to find AI tools based on user input
+    function findAITools() {
+        const description = document.getElementById('problemDescription').value;
+        if (!description) {
+            alert('Please enter a description of your needs.');
+            return;
+        }
+        // Simulate finding tools (replace with actual logic)
+        const results = `You described: "${description}". Here are some suggested AI tools...`;
+        document.getElementById('finderResults').innerText = results;
+    }
+
+    // Function to close the modal
+    function closeModal() {
+        document.getElementById('toolModal').style.display = 'none';
+    }
